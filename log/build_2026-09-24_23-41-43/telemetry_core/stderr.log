@@ -1,0 +1,60 @@
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/manipulator.dir/build.make:178: manipulator] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/manipulator.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/yd/GitRepositories/UREx/src/telemetry_core/src/planner_pub.cpp:25:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   25 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/yd/GitRepositories/UREx/src/telemetry_core/src/planner_pub.cpp:[m[K In constructor ‘[01m[KPlannerPub::[01;32m[KPlannerPub[m[K()[m[K’:
+[01m[K/home/yd/GitRepositories/UREx/src/telemetry_core/src/planner_pub.cpp:11:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   11 |         [01;31m[Kpublisher_[m[K = this->create_publisher<geometry_msgs::msgs::Point>(
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[Krmw_publisher_t[m[K
+[01m[K/home/yd/GitRepositories/UREx/src/telemetry_core/src/planner_pub.cpp:11:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsgs[m[K’ is not a member of ‘[01m[Kgeometry_msgs[m[K’; did you mean ‘[01m[Kmsg[m[K’?
+   11 |         publisher_ = this->create_publisher<geometry_msgs::[01;31m[Kmsgs[m[K::Point>(
+      |                                                            [01;31m[K^~~~[m[K
+      |                                                            [32m[Kmsg[m[K
+[01m[K/home/yd/GitRepositories/UREx/src/telemetry_core/src/planner_pub.cpp:11:28:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   11 |         publisher_ = this->[01;31m[Kcreate_publisher<geometry_msgs::msgs::Point>[m[K(
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yd/GitRepositories/UREx/src/telemetry_core/src/planner_pub.cpp:11:72:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPlannerPub::create_publisher<<expression error> >(const char [16], int)[m[K’
+   11 |         publisher_ = [01;31m[Kthis->create_publisher<geometry_msgs::msgs::Point>([m[K
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   12 | [01;31m[K            "camera_setpoint", 10)[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~[m[K                                      
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:176[m[K,
+                 from [01m[K/home/yd/GitRepositories/UREx/src/telemetry_core/src/planner_pub.cpp:2[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::[01;32m[Kcreate_publisher[m[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  197 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:197:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/yd/GitRepositories/UREx/src/telemetry_core/src/planner_pub.cpp:11:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   11 |         publisher_ = [01;31m[Kthis->create_publisher<geometry_msgs::msgs::Point>([m[K
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   12 | [01;31m[K            "camera_setpoint", 10)[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~[m[K                                      
+[01m[K/home/yd/GitRepositories/UREx/src/telemetry_core/src/planner_pub.cpp:13:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   13 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Ktimer_t[m[K
+[01m[K/home/yd/GitRepositories/UREx/src/telemetry_core/src/planner_pub.cpp:[m[K In member function ‘[01m[Kvoid PlannerPub::[01;32m[Ktimer_callback[m[K()[m[K’:
+[01m[K/home/yd/GitRepositories/UREx/src/telemetry_core/src/planner_pub.cpp:22:19:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   22 |         [01;35m[Kmessage.z - 0.3[m[K;
+      |         [01;35m[K~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:175[m[K:
+[01m[K/home/yd/GitRepositories/UREx/src/telemetry_core/src/planner_pub.cpp:23:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   23 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), )
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/yd/GitRepositories/UREx/src/telemetry_core/src/planner_pub.cpp:24:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   24 |     [01;31m[K}[m[K
+      |     [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/planner.dir/build.make:76: CMakeFiles/planner.dir/src/planner_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

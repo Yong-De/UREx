@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.000501] (telemetry_core) JobQueued: {'identifier': 'telemetry_core', 'dependencies': OrderedDict()}
+[0.001121] (telemetry_core) JobStarted: {'identifier': 'telemetry_core'}
+[0.010198] (telemetry_core) JobProgress: {'identifier': 'telemetry_core', 'progress': 'cmake'}
+[0.011137] (telemetry_core) JobProgress: {'identifier': 'telemetry_core', 'progress': 'build'}
+[0.012022] (telemetry_core) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yd/GitRepositories/UREx/build/telemetry_core', '--', '-j24', '-l24'], 'cwd': '/home/yd/GitRepositories/UREx/build/telemetry_core', 'env': OrderedDict({'NIRI_SOCKET': '/run/user/1000/niri.wayland-1.1631.sock', 'MAIL': '/var/spool/mail/yd', 'USER': 'yd', 'LC_TIME': 'en_SG.UTF-8', 'STARSHIP_SHELL': 'fish', 'NVCC_CCBIN': '/usr/bin/g++', 'HOSTNAME': 'YD-Laptop', 'ILLOGICAL_IMPULSE_VIRTUAL_ENV': '/home/yd/.local/state/quickshell/.venv', 'XDG_SESSION_TYPE': 'wayland', 'XCURSOR_SIZE': '40', 'XDG_CACHE_HOME': '/home/yd/.cache', 'SHLVL': '5', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/yd', 'TERMINFO': '/usr/lib/kitty/terminfo', 'OLDPWD': '/home/yd/GitRepositories/UREx/src/telemetry_core/src', 'DESKTOP_SESSION': 'niri', 'KITTY_INSTALLATION_DIR': '/usr/lib/kitty', 'QT_STYLE_OVERRIDE': 'Darkly', 'ROS_PYTHON_VERSION': '3', 'GRADLE_HOME': '/usr/share/java/gradle', 'LC_MONETARY': 'en_SG.UTF-8', 'KITTY_PID': '28818', 'MANAGERPID': '1492', 'DISTROBOX_ENTER_PATH': '/usr/bin/distrobox-enter', 'SYSTEMD_EXEC_PID': '1631', 'VISUAL': 'nvim', 'XDG_STATE_HOME': '/home/yd/.local/state', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'container': 'docker', 'DEBUGINFOD_URLS': 'https://debuginfod.cachyos.org https://debuginfod.archlinux.org', 'QT_QPA_PLATFORMTHEME': 'kde', 'WAYLAND_DISPLAY': 'wayland-1', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yd', 'INIR_VENV': '/home/yd/.local/state/quickshell/.venv', 'MANAGERPIDFDID': '65590', 'JOURNAL_STREAM': '10:17226', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/niri.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERMINFO_DIRS': '/usr/share/terminfo:/run/host/usr/share/terminfo', 'TERM': 'xterm-kitty', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/bin:/opt/cuda/bin:/opt/rocm/bin:/home/yd/.local/bin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/sbin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/bin', 'INVOCATION_ID': '9c4034defe0e4a2f8674547e6a727374', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'XDG_MENU_PREFIX': 'plasma-', 'LC_ADDRESS': 'en_SG.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'capitaine-cursors-light', 'DISPLAY': ':1', 'DESKTOP_STARTUP_ID': 'BQdu8aNqeee5HSQrWvs9V2unvz6zBx3O', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'niri', 'LC_TELEPHONE': 'en_SG.UTF-8', 'ROCM_PATH': '/opt/rocm', 'XDG_DATA_HOME': '/home/yd/.local/share', 'XDG_CONFIG_HOME': '/home/yd/.config', 'XDG_SESSION_DESKTOP': 'niri', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CUDA_DISABLE_PERF_BOOST': '1', 'SHELL': 'fish', 'LC_NAME': 'en_SG.UTF-8', 'KITTY_WINDOW_ID': '1', 'QT_LOGGING_RULES': 'quickshell.dbus.properties=false', 'DBX_CONTAINER_MANAGER': 'docker', 'LC_MEASUREMENT': 'en_SG.UTF-8', 'VSSCRIPT_PATH': '/usr/lib/python3.14/site-packages/vapoursynth/libvsscript.so', 'LC_IDENTIFICATION': 'en_SG.UTF-8', 'ELECTRON_OZONE_PLATFORM_HINT': 'auto', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/yd/GitRepositories/UREx/build/telemetry_core', 'CONTAINER_ID': 'ubuntu-ros', 'QT_QPA_PLATFORM': 'wayland', 'XDG_CONFIG_DIRS': '/etc/xdg', 'VIRTUAL_ENV_DISABLE_PROMPT': '1', 'XDG_DATA_DIRS': '/home/yd/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share', 'STARSHIP_SESSION_KEY': '1017326375700521', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_SG.UTF-8', 'LC_PAPER': 'en_SG.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CUDA_PATH': '/opt/cuda', 'EDITOR': 'nvim', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.080261] (telemetry_core) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/manipulator.dir/src/manipulator_sub.cpp.o\x1b[0m\n'}
+[0.087759] (telemetry_core) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/planner.dir/src/planner_pub.cpp.o\x1b[0m\n'}
+[0.099569] (-) TimerEvent: {}
+[0.199976] (-) TimerEvent: {}
+[0.300367] (-) TimerEvent: {}
+[0.400761] (-) TimerEvent: {}
+[0.501194] (-) TimerEvent: {}
+[0.601592] (-) TimerEvent: {}
+[0.702060] (-) TimerEvent: {}
+[0.802409] (-) TimerEvent: {}
+[0.902771] (-) TimerEvent: {}
+[1.003135] (-) TimerEvent: {}
+[1.103491] (-) TimerEvent: {}
+[1.203862] (-) TimerEvent: {}
+[1.304215] (-) TimerEvent: {}
+[1.404582] (-) TimerEvent: {}
+[1.504940] (-) TimerEvent: {}
+[1.605291] (-) TimerEvent: {}
+[1.705672] (-) TimerEvent: {}
+[1.806066] (-) TimerEvent: {}
+[1.906421] (-) TimerEvent: {}
+[1.960752] (telemetry_core) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yd/GitRepositories/UREx/src/telemetry_core/src/planner_pub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PlannerPub::\x1b[01;32m\x1b[Ktimer_callback\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.961071] (telemetry_core) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yd/GitRepositories/UREx/src/telemetry_core/src/planner_pub.cpp:24:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.961180] (telemetry_core) StderrLine: {'line': b'   24 |         \x1b[01;35m\x1b[Kmessage.z - 0.3\x1b[m\x1b[K;\n'}
+[1.961249] (telemetry_core) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.006538] (-) TimerEvent: {}
+[2.106884] (-) TimerEvent: {}
+[2.207232] (-) TimerEvent: {}
+[2.307574] (-) TimerEvent: {}
+[2.407942] (-) TimerEvent: {}
+[2.508289] (-) TimerEvent: {}
+[2.608650] (-) TimerEvent: {}
+[2.709041] (-) TimerEvent: {}
+[2.809387] (-) TimerEvent: {}
+[2.909748] (-) TimerEvent: {}
+[3.010104] (-) TimerEvent: {}
+[3.110466] (-) TimerEvent: {}
+[3.210823] (-) TimerEvent: {}
+[3.311168] (-) TimerEvent: {}
+[3.411517] (-) TimerEvent: {}
+[3.511997] (-) TimerEvent: {}
+[3.612377] (-) TimerEvent: {}
+[3.712746] (-) TimerEvent: {}
+[3.813105] (-) TimerEvent: {}
+[3.913459] (-) TimerEvent: {}
+[4.013870] (-) TimerEvent: {}
+[4.068489] (telemetry_core) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable planner\x1b[0m\n'}
+[4.114014] (-) TimerEvent: {}
+[4.214437] (-) TimerEvent: {}
+[4.248466] (telemetry_core) StdoutLine: {'line': b'[ 75%] Built target planner\n'}
+[4.314576] (-) TimerEvent: {}
+[4.414948] (-) TimerEvent: {}
+[4.515297] (-) TimerEvent: {}
+[4.615662] (-) TimerEvent: {}
+[4.716077] (-) TimerEvent: {}
+[4.816434] (-) TimerEvent: {}
+[4.916830] (-) TimerEvent: {}
+[5.017206] (-) TimerEvent: {}
+[5.117584] (-) TimerEvent: {}
+[5.217946] (-) TimerEvent: {}
+[5.318351] (-) TimerEvent: {}
+[5.418827] (-) TimerEvent: {}
+[5.519277] (-) TimerEvent: {}
+[5.619677] (-) TimerEvent: {}
+[5.720076] (-) TimerEvent: {}
+[5.820502] (-) TimerEvent: {}
+[5.920962] (-) TimerEvent: {}
+[6.021389] (-) TimerEvent: {}
+[6.121859] (-) TimerEvent: {}
+[6.222295] (-) TimerEvent: {}
+[6.322699] (-) TimerEvent: {}
+[6.423131] (-) TimerEvent: {}
+[6.523522] (-) TimerEvent: {}
+[6.624003] (-) TimerEvent: {}
+[6.724439] (-) TimerEvent: {}
+[6.824846] (-) TimerEvent: {}
+[6.925288] (-) TimerEvent: {}
+[7.025696] (-) TimerEvent: {}
+[7.126130] (-) TimerEvent: {}
+[7.226499] (-) TimerEvent: {}
+[7.289597] (telemetry_core) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable manipulator\x1b[0m\n'}
+[7.326588] (-) TimerEvent: {}
+[7.426958] (-) TimerEvent: {}
+[7.527342] (-) TimerEvent: {}
+[7.562690] (telemetry_core) StdoutLine: {'line': b'[100%] Built target manipulator\n'}
+[7.578050] (telemetry_core) CommandEnded: {'returncode': 0}
+[7.579039] (telemetry_core) JobProgress: {'identifier': 'telemetry_core', 'progress': 'install'}
+[7.591789] (telemetry_core) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yd/GitRepositories/UREx/build/telemetry_core'], 'cwd': '/home/yd/GitRepositories/UREx/build/telemetry_core', 'env': OrderedDict({'NIRI_SOCKET': '/run/user/1000/niri.wayland-1.1631.sock', 'MAIL': '/var/spool/mail/yd', 'USER': 'yd', 'LC_TIME': 'en_SG.UTF-8', 'STARSHIP_SHELL': 'fish', 'NVCC_CCBIN': '/usr/bin/g++', 'HOSTNAME': 'YD-Laptop', 'ILLOGICAL_IMPULSE_VIRTUAL_ENV': '/home/yd/.local/state/quickshell/.venv', 'XDG_SESSION_TYPE': 'wayland', 'XCURSOR_SIZE': '40', 'XDG_CACHE_HOME': '/home/yd/.cache', 'SHLVL': '5', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/yd', 'TERMINFO': '/usr/lib/kitty/terminfo', 'OLDPWD': '/home/yd/GitRepositories/UREx/src/telemetry_core/src', 'DESKTOP_SESSION': 'niri', 'KITTY_INSTALLATION_DIR': '/usr/lib/kitty', 'QT_STYLE_OVERRIDE': 'Darkly', 'ROS_PYTHON_VERSION': '3', 'GRADLE_HOME': '/usr/share/java/gradle', 'LC_MONETARY': 'en_SG.UTF-8', 'KITTY_PID': '28818', 'MANAGERPID': '1492', 'DISTROBOX_ENTER_PATH': '/usr/bin/distrobox-enter', 'SYSTEMD_EXEC_PID': '1631', 'VISUAL': 'nvim', 'XDG_STATE_HOME': '/home/yd/.local/state', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'container': 'docker', 'DEBUGINFOD_URLS': 'https://debuginfod.cachyos.org https://debuginfod.archlinux.org', 'QT_QPA_PLATFORMTHEME': 'kde', 'WAYLAND_DISPLAY': 'wayland-1', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yd', 'INIR_VENV': '/home/yd/.local/state/quickshell/.venv', 'MANAGERPIDFDID': '65590', 'JOURNAL_STREAM': '10:17226', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/niri.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERMINFO_DIRS': '/usr/share/terminfo:/run/host/usr/share/terminfo', 'TERM': 'xterm-kitty', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/bin:/opt/cuda/bin:/opt/rocm/bin:/home/yd/.local/bin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/sbin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/bin', 'INVOCATION_ID': '9c4034defe0e4a2f8674547e6a727374', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'XDG_MENU_PREFIX': 'plasma-', 'LC_ADDRESS': 'en_SG.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XCURSOR_THEME': 'capitaine-cursors-light', 'DISPLAY': ':1', 'DESKTOP_STARTUP_ID': 'BQdu8aNqeee5HSQrWvs9V2unvz6zBx3O', 'LANG': 'en_GB.UTF-8', 'XDG_CURRENT_DESKTOP': 'niri', 'LC_TELEPHONE': 'en_SG.UTF-8', 'ROCM_PATH': '/opt/rocm', 'XDG_DATA_HOME': '/home/yd/.local/share', 'XDG_CONFIG_HOME': '/home/yd/.config', 'XDG_SESSION_DESKTOP': 'niri', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CUDA_DISABLE_PERF_BOOST': '1', 'SHELL': 'fish', 'LC_NAME': 'en_SG.UTF-8', 'KITTY_WINDOW_ID': '1', 'QT_LOGGING_RULES': 'quickshell.dbus.properties=false', 'DBX_CONTAINER_MANAGER': 'docker', 'LC_MEASUREMENT': 'en_SG.UTF-8', 'VSSCRIPT_PATH': '/usr/lib/python3.14/site-packages/vapoursynth/libvsscript.so', 'LC_IDENTIFICATION': 'en_SG.UTF-8', 'ELECTRON_OZONE_PLATFORM_HINT': 'auto', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/yd/GitRepositories/UREx/build/telemetry_core', 'CONTAINER_ID': 'ubuntu-ros', 'QT_QPA_PLATFORM': 'wayland', 'XDG_CONFIG_DIRS': '/etc/xdg', 'VIRTUAL_ENV_DISABLE_PROMPT': '1', 'XDG_DATA_DIRS': '/home/yd/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share', 'STARSHIP_SESSION_KEY': '1017326375700521', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_SG.UTF-8', 'LC_PAPER': 'en_SG.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CUDA_PATH': '/opt/cuda', 'EDITOR': 'nvim', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[7.600584] (telemetry_core) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.601416] (telemetry_core) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.601745] (telemetry_core) StdoutLine: {'line': b'-- Symlinking: /home/yd/GitRepositories/UREx/install/telemetry_core/lib/telemetry_core/planner\n'}
+[7.612905] (telemetry_core) StdoutLine: {'line': b'-- Symlinking: /home/yd/GitRepositories/UREx/install/telemetry_core/lib/telemetry_core/manipulator\n'}
+[7.623905] (telemetry_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yd/GitRepositories/UREx/install/telemetry_core/share/ament_index/resource_index/package_run_dependencies/telemetry_core\n'}
+[7.624056] (telemetry_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yd/GitRepositories/UREx/install/telemetry_core/share/ament_index/resource_index/parent_prefix_path/telemetry_core\n'}
+[7.624187] (telemetry_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yd/GitRepositories/UREx/install/telemetry_core/share/telemetry_core/environment/ament_prefix_path.sh\n'}
+[7.624315] (telemetry_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yd/GitRepositories/UREx/install/telemetry_core/share/telemetry_core/environment/ament_prefix_path.dsv\n'}
+[7.624435] (telemetry_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yd/GitRepositories/UREx/install/telemetry_core/share/telemetry_core/environment/path.sh\n'}
+[7.624553] (telemetry_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yd/GitRepositories/UREx/install/telemetry_core/share/telemetry_core/environment/path.dsv\n'}
+[7.624670] (telemetry_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yd/GitRepositories/UREx/install/telemetry_core/share/telemetry_core/local_setup.bash\n'}
+[7.624802] (telemetry_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yd/GitRepositories/UREx/install/telemetry_core/share/telemetry_core/local_setup.sh\n'}
+[7.624904] (telemetry_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yd/GitRepositories/UREx/install/telemetry_core/share/telemetry_core/local_setup.zsh\n'}
+[7.625014] (telemetry_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yd/GitRepositories/UREx/install/telemetry_core/share/telemetry_core/local_setup.dsv\n'}
+[7.625117] (telemetry_core) StdoutLine: {'line': b'-- Symlinking: /home/yd/GitRepositories/UREx/install/telemetry_core/share/telemetry_core/package.dsv\n'}
+[7.627416] (-) TimerEvent: {}
+[7.636400] (telemetry_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yd/GitRepositories/UREx/install/telemetry_core/share/ament_index/resource_index/packages/telemetry_core\n'}
+[7.636659] (telemetry_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yd/GitRepositories/UREx/install/telemetry_core/share/telemetry_core/cmake/telemetry_coreConfig.cmake\n'}
+[7.636815] (telemetry_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yd/GitRepositories/UREx/install/telemetry_core/share/telemetry_core/cmake/telemetry_coreConfig-version.cmake\n'}
+[7.636944] (telemetry_core) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yd/GitRepositories/UREx/install/telemetry_core/share/telemetry_core/package.xml\n'}
+[7.638806] (telemetry_core) CommandEnded: {'returncode': 0}
+[7.654802] (telemetry_core) JobEnded: {'identifier': 'telemetry_core', 'rc': 0}
+[7.655727] (-) EventReactorShutdown: {}

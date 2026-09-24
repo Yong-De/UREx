@@ -1,0 +1,1 @@
+/home/yd/GitRepositories/UREx/build/telemetry_core/ament_cmake_core/telemetry_coreConfig.cmake
