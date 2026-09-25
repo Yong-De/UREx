@@ -1,4 +1,4 @@
-# Embedded system
+# Embedded system component
 
 ## Installation and usage
 
@@ -58,7 +58,7 @@ without halting the progress of the project as a whole.
 
 ## Project timeline (October to December)
 
-| Period | Focus |
+| Month | Objective |
 | --- | --- |
 | Sept | Architecture decided |
 | Oct | Message set + QoS |
