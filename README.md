@@ -56,7 +56,7 @@ without halting the progress of the project as a whole.
 - Architecture decided (ROS 2 + DDS)
 - `CameraTarget.msg` defined and wired up
 
-## Project timeline (October to December)
+## Project timeline (October to November)
 
 | Month | Objective |
 | --- | --- |
