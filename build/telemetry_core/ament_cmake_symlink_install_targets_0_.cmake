@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/yd/GitRepositories/UREx/build/telemetry_core/planner" "/home/yd/GitRepositories/UREx/build/telemetry_core/manipulator" "TARGETS" "planner" "manipulator" "DESTINATION" "lib/telemetry_core")

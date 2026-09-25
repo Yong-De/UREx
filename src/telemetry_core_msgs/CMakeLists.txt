@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(telemetry_core)
+project(telemetry_core_msgs)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -7,20 +7,15 @@ endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
-find_package(rclcpp REQUIRED)
+# uncomment the following section in order to fill in
+# further dependencies manually.
+find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
-find_package(telemetry_core_msgs REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
 
-add_executable(planner src/planner_pub.cpp)
-ament_target_dependencies(planner rclcpp geometry_msgs telemetry_core_msgs)
-
-add_executable(manipulator src/manipulator_sub.cpp)
-ament_target_dependencies(manipulator rclcpp geometry_msgs telemetry_core_msgs)
-
-install(TARGETS 
-  planner 
-  manipulator 
-  DESTINATION lib/${PROJECT_NAME}
+rosidl_generate_interfaces(${PROJECT_NAME}
+    "msg/CameraTarget.msg"
+    DEPENDENCIES std_msgs geometry_msgs
 )
 
 if(BUILD_TESTING)
