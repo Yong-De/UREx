@@ -63,7 +63,6 @@ without halting the progress of the project as a whole.
 | Sept | Architecture decided |
 | Oct | Message set + QoS |
 | Nov | Integration demo |
-| Dec | Report + submission |
 
 ## Final objective
 
